@@ -1,0 +1,45 @@
+*** /System/Library/Extensions/FTDIUSBSerialDriver.kext/Contents/Info.plist	2010-05-15 09:50:05.000000000 -0400
+--- /System/Library/Extensions/FTDIUSBSerialDriver.kext/Contents/Info.plist	2010-05-15 09:51:16.000000000 -0400
+***************
+*** 6912,6917 ****
+--- 6912,6951 ----
+  			<key>idVendor</key>
+  			<integer>1027</integer>
+  		</dict>
++ 		<key>SheevaPlug JTAGKey FT2232D A</key>
++ 		<dict>
++ 			<key>CFBundleIdentifier</key>
++ 			<string>com.FTDI.driver.FTDIUSBSerialDriver</string>
++ 			<key>IOClass</key>
++ 			<string>FTDIUSBSerialDriver</string>
++ 			<key>IOProviderClass</key>
++ 			<string>IOUSBInterface</string>
++ 			<key>bConfigurationValue</key>
++ 			<integer>1</integer>
++ 			<key>bInterfaceNumber</key>
++ 			<integer>0</integer>
++ 			<key>idProduct</key>
++ 			<integer>40591</integer>
++ 			<key>idVendor</key>
++ 			<integer>40584</integer>
++ 		</dict>
++ 		<key>SheevaPlug JTAGKey FT2232D B</key>
++ 		<dict>
++ 			<key>CFBundleIdentifier</key>
++ 			<string>com.FTDI.driver.FTDIUSBSerialDriver</string>
++ 			<key>IOClass</key>
++ 			<string>FTDIUSBSerialDriver</string>
++ 			<key>IOProviderClass</key>
++ 			<string>IOUSBInterface</string>
++ 			<key>bConfigurationValue</key>
++ 			<integer>1</integer>
++ 			<key>bInterfaceNumber</key>
++ 			<integer>1</integer>
++ 			<key>idProduct</key>
++ 			<integer>40591</integer>
++ 			<key>idVendor</key>
++ 			<integer>40584</integer>
++ 		</dict>
+  	</dict>
+  	<key>OSBundleLibraries</key>
+  	<dict>
